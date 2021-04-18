@@ -1,0 +1,54 @@
+.Track {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    /* border-bottom: 1px solid rgba(256, 256, 256, 0.8); */
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .Track-action {
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: color .25s;
+    color: #fff;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #9d9d9d,
+             -10px -10px 20px #ffffff;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .Track-action:hover {
+    background-color: #6c41e9;
+    box-shadow: inset 10px 10px 20px #4c2ea3,
+            inset -10px -10px 20px #8c55ff;
+  }
+  
+  .Track-information {
+    flex-grow: 1;
+    display: flex;
+    color: #1E1E24;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+  }
+  
+  .Track-information h3 {
+    margin-bottom: .22rem;
+  }
+  
+  .Track-information p {
+    font-size: .83rem;
+    font-weight: 300;
+  }
+
+  .Track-information audio {
+    margin : .22rem 0;
+    padding: 0 .22rem;
+    max-width: 75%;
+  }
+
