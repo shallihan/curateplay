@@ -1,9 +1,17 @@
 # Curate: curate your own Spotify playlist
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) an uses a [Spotify API] (https://developer.spotify.com) to search for artists, songs and albums on Spotify and save them to a new personal playlist on your account.
+![Curate](https://github.com/shallihan/curateplay/blob/master/video.gif)
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses a [Spotify] (https://developer.spotify.com) API to search for artists, songs and albums on Spotify. It allows the user to build and save playlists to their personal account.
 
 You can see this web application up and running at [Curate](http://curateplay.surge.sh/)
+
+### Recently updated feature requests
+
+Included 30 second preview samples for each track
+After a playlist is saved to a users account, the playlist is cleared and a user can begin creating another playlist. 
 
 ## Available Scripts
 

@@ -1,4 +1,4 @@
-const clientId ='Place Spotify Client ID here';
+const clientId ='Enter Spotify Client ID here';
 const redirectUri = "http://curateplay.surge.sh/";
 let accessToken;
 

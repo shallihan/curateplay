@@ -27,6 +27,7 @@
   
   .SearchButton {
     cursor: pointer;
+    outline: none;
     width: 12rem;
     padding: .77rem 0;
     border-radius: 30px;

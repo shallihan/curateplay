@@ -26,6 +26,7 @@
   
   .Playlist-save {
     cursor: pointer;
+    outline: none;
     width: 10rem;
     padding: .77rem 0;
     border-radius: 54px;

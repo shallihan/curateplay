@@ -12,6 +12,7 @@
   
   .Track-action {
     cursor: pointer;
+    outline: none;
     font-size: 1.25rem;
     transition: color .25s;
     color: #fff;
@@ -47,6 +48,7 @@
   }
 
   .Track-information audio {
+    outline: none;
     margin : .22rem 0;
     padding: 0 .22rem;
     max-width: 75%;

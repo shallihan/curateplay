@@ -9,6 +9,7 @@ class SearchBar extends React.Component {
         }
         this.search = this.search.bind(this);
         this.handleTermChange = this.handleTermChange.bind(this);
+        this.handleSearchByPressEnter = this.handleSearchByPressEnter.bind(this);
     }
 
     search() {
@@ -19,10 +20,10 @@ class SearchBar extends React.Component {
         this.setState({searchTerm: event.target.value});
     }
 
-    handleSearchByPressEnter (e) {
-        if (e.keyCode === 13) {
-            e.preventDefault();
-            this.search();
+    handleSearchByPressEnter (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            this.props.onSearch(this.state.searchTerm);
         }
     }
 
