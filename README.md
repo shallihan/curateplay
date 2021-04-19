@@ -10,8 +10,13 @@ You can see this web application up and running at [Curate](http://curateplay.su
 
 ### Recently updated feature requests
 
-Included 30 second preview samples for each track
-After a playlist is saved to a users account, the playlist is cleared and a user can begin creating another playlist. 
+* Included 30 second preview samples for each track
+
+
+* After a playlist is saved to a users account, the playlist is cleared and a user can begin creating another playlist. 
+
+
+
 
 ## Available Scripts
 
